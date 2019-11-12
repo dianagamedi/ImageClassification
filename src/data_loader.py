@@ -1,10 +1,8 @@
-from __future__ import absolute_import, division, print_function, unicode_literals
-
 import os
 
 
-def get_length_set(set):
-    return len(os.listdir(set))
+def get_length_set(dataset):
+    return len(os.listdir(dataset))
 
 
 class DataLoader:
