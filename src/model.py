@@ -9,7 +9,7 @@ class Model:
     Model that will cause overfitting
     """
 
-    def __init___(self):
+    def __init__(self):
         self._init_model()
 
     def _init_model(self, height, width):
@@ -48,7 +48,7 @@ class ModelDropout:
     """
     Model with dropout technique
     """
-    def __init___(self):
+    def __init__(self):
         self._init_model()
 
     def _init_model(self, height, width):
